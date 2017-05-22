@@ -130,7 +130,7 @@ where x, y are the world coordinate originated in the car position, and psi is t
 
 The equations are derived as follows:
 
-!(https://github.com/seanxu1015/SDC_P10_MPC/blob/master/coordinate_converting.png)
+![](https://github.com/seanxu1015/SDC_P10_MPC/blob/master/coordinate_converting.png)
 
 define r = sqrt(x^2+y^2)
 
