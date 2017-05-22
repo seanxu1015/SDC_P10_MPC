@@ -159,7 +159,7 @@ cte = cte0 + v0 * sin(epsi0) * dt
 
 epsi = epsi0 - v0 * steer_angle / Lf * dt
 
-where v, steer_angle and throttle are fetched directly from j[1], and cte0 and epsi0 are calculated after polyfit (cte0=coeffs[0], epsi0=-atan(coeffs[1])). Note that these calculations are in the car coordinate.
+where v0, steer_angle and throttle are fetched directly from j[1], and cte0 and epsi0 are calculated after polyfit (cte0=coeffs[0], epsi0=-atan(coeffs[1])). Note that these calculations are in the car coordinate.
 
 4. Model Predictive Control with Latency
 
